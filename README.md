@@ -17,82 +17,80 @@ IOT_23/
 │   ├── Isolation forest.ipynb
 │   ├── LOF Report.ipynb
 │   └── iot23_Preprocessed.csv
+
 ⚙️ Data Preprocessing
 
-Handled missing values and noisy features
+  - Handled missing values and noisy features
 
-Feature selection and normalization
+  - Feature selection and normalization
 
-Converted raw network traffic into ML-ready numerical format
+  - Converted raw network traffic into ML-ready numerical format
 
-Generated a cleaned and preprocessed dataset for modeling
+  - Generated a cleaned and preprocessed dataset for modeling
 
-🤖 Machine Learning Models Used
+🤖 Machine Learning Models Used: The following unsupervised anomaly detection algorithms were implemented and compared:
 
-The following unsupervised anomaly detection algorithms were implemented and compared:
+-DBSCAN:
 
-DBSCAN
+    -Density-based clustering
+    -Identifies anomalies as noise points
 
-Density-based clustering
+-Isolation Forest:
 
-Identifies anomalies as noise points
+    - Tree-based anomaly detection
+    - Efficient for high-dimensional data
 
-Isolation Forest
+- Local Outlier Factor (LOF)
 
-Tree-based anomaly detection
-
-Efficient for high-dimensional data
-
-Local Outlier Factor (LOF)
-
-Detects anomalies based on local density deviation
+    - Detects anomalies based on local density deviation
 
 📊 Evaluation & Analysis
 
-Compared anomaly detection capability of different models
+  - Compared anomaly detection capability of different models
 
-Visualized anomaly clusters and outliers
+  - Visualized anomaly clusters and outliers
 
-Analyzed model sensitivity to hyperparameters
+  - Analyzed model sensitivity to hyperparameters
 
-Discussed strengths and limitations of each approach
+  - Discussed strengths and limitations of each approach
 
 🧠 Key Learnings
 
-Unsupervised learning is effective for IoT security where labels are scarce
+  - Unsupervised learning is effective for IoT security where labels are scarce
 
-Isolation Forest performed well on large-scale data
+  - Isolation Forest performed well on large-scale data
 
-DBSCAN is sensitive to parameter tuning
+  - DBSCAN is sensitive to parameter tuning
 
-LOF captures local anomalies effectively
+  - LOF captures local anomalies effectively
 
 🛠️ Tech Stack
 
-Python
+  - Python
 
-Pandas, NumPy
+  - Pandas, NumPy
 
-Scikit-learn
+  - Scikit-learn
 
-Matplotlib, Seaborn
+  - Matplotlib, Seaborn
 
-Jupyter Notebook
+  - Jupyter Notebook
 
 🚀 Future Improvements
 
-Ensemble-based anomaly detection
+  - Ensemble-based anomaly detection
 
-Real-time IoT traffic analysis
+  - Real-time IoT traffic analysis
 
-Feature engineering using time-series aggregation
+  - Feature engineering using time-series aggregation
 
-Comparison with supervised learning models
+  - Comparison with supervised learning models
 
 📎 Dataset
 
-IoT-23 Dataset (Real-world IoT network traffic)
+  - IoT-23 Dataset (Real-world IoT network traffic)
 
 📬 Author
 
-Hirendra Basantani
+  - Hirendra Basantani
+ 
