@@ -8,15 +8,25 @@ Since labeled data is often unavailable in real IoT deployments, unsupervised le
 
 **📂 Project Structure**
 IOT_23/
+
 │
+
 ├── Data Preprocessing/
+
 │   ├── IoT23 - Data Preprocessing.ipynb
+
 │   └── iot23_Dataset.csv
+
 │
+
 ├── Models/
+
 │   ├── DBScan.ipynb
+
 │   ├── Isolation forest.ipynb
+
 │   ├── LOF Report.ipynb
+
 │   └── iot23_Preprocessed.csv
 
 **⚙️ Data Preprocessing**
