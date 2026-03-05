@@ -1,4 +1,4 @@
-IoT-23 Network Anomaly Detection using Unsupervised Machine Learning
+**IoT-23 Network Anomaly Detection using Unsupervised Machine Learning**
 
 **📌 Project Overview**
 
