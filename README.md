@@ -1,11 +1,12 @@
 IoT-23 Network Anomaly Detection using Unsupervised Machine Learning
-📌 Project Overview
+
+**📌 Project Overview**
 
 This project focuses on detecting anomalous and malicious network traffic in IoT environments using unsupervised machine learning techniques. The analysis is performed on the IoT-23 dataset, which contains real-world benign and malicious IoT network traffic.
 
 Since labeled data is often unavailable in real IoT deployments, unsupervised learning models are used to identify abnormal behavior patterns.
 
-📂 Project Structure
+**📂 Project Structure**
 IOT_23/
 │
 ├── Data Preprocessing/
@@ -18,7 +19,7 @@ IOT_23/
 │   ├── LOF Report.ipynb
 │   └── iot23_Preprocessed.csv
 
-⚙️ Data Preprocessing
+**⚙️ Data Preprocessing**
 
   - Handled missing values and noisy features
 
@@ -28,7 +29,8 @@ IOT_23/
 
   - Generated a cleaned and preprocessed dataset for modeling
 
-🤖 Machine Learning Models Used: The following unsupervised anomaly detection algorithms were implemented and compared:
+**🤖 Machine Learning Models Used:** 
+The following unsupervised anomaly detection algorithms were implemented and compared:
 
 -DBSCAN:
 
@@ -42,9 +44,9 @@ IOT_23/
 
 - Local Outlier Factor (LOF)
 
-    - Detects anomalies based on local density deviation
+     - Detects anomalies based on local density deviation
 
-📊 Evaluation & Analysis
+**📊 Evaluation & Analysis**
 
   - Compared anomaly detection capability of different models
 
@@ -54,7 +56,7 @@ IOT_23/
 
   - Discussed strengths and limitations of each approach
 
-🧠 Key Learnings
+**🧠 Key Learnings**
 
   - Unsupervised learning is effective for IoT security where labels are scarce
 
@@ -64,7 +66,7 @@ IOT_23/
 
   - LOF captures local anomalies effectively
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 
   - Python
 
@@ -76,7 +78,7 @@ IOT_23/
 
   - Jupyter Notebook
 
-🚀 Future Improvements
+**🚀 Future Improvements**
 
   - Ensemble-based anomaly detection
 
@@ -86,11 +88,11 @@ IOT_23/
 
   - Comparison with supervised learning models
 
-📎 Dataset
+**📎 Dataset**
 
   - IoT-23 Dataset (Real-world IoT network traffic)
 
-📬 Author
+**📬 Author**
 
-  - Hirendra Basantani
+  - **Hirendra Basantani**
  
