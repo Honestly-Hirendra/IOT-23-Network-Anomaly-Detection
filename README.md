@@ -7,27 +7,18 @@ This project focuses on detecting anomalous and malicious network traffic in IoT
 Since labeled data is often unavailable in real IoT deployments, unsupervised learning models are used to identify abnormal behavior patterns.
 
 **📂 Project Structure**
-IOT_23/
-
-│
-
-├── Data Preprocessing/
-
-│   ├── IoT23 - Data Preprocessing.ipynb
-
-│   └── iot23_Dataset.csv
-
-│
-
-├── Models/
-
-│   ├── DBScan.ipynb
-
-│   ├── Isolation forest.ipynb
-
-│   ├── LOF Report.ipynb
-
-│   └── iot23_Preprocessed.csv
+IOT_23: 
+  -Data Preprocessing/
+      
+      - IoT23 - Data Preprocessing.ipynb
+      - iot23_Dataset.csv
+      
+  -Models/
+  
+      - DBScan.ipynb
+      - Isolation forest.ipynb
+      - LOF Report.ipynb
+      - iot23_Preprocessed.csv
 
 **⚙️ Data Preprocessing**
 
@@ -40,21 +31,22 @@ IOT_23/
   - Generated a cleaned and preprocessed dataset for modeling
 
 **🤖 Machine Learning Models Used:** 
-The following unsupervised anomaly detection algorithms were implemented and compared:
 
--DBSCAN:
+- The following unsupervised anomaly detection algorithms were implemented and compared:
+
+-> DBSCAN:
 
     -Density-based clustering
     -Identifies anomalies as noise points
 
--Isolation Forest:
+-> Isolation Forest:
 
     - Tree-based anomaly detection
     - Efficient for high-dimensional data
 
-- Local Outlier Factor (LOF)
+-> Local Outlier Factor (LOF):
 
-     - Detects anomalies based on local density deviation
+      - Detects anomalies based on local density deviation
 
 **📊 Evaluation & Analysis**
 
